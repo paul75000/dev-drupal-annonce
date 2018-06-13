@@ -174,7 +174,7 @@ class Annonce extends ContentEntityBase implements AnnonceInterface {
       ->setDisplayConfigurable('view', TRUE);
 
     $fields['name'] = BaseFieldDefinition::create('string')
-      //->setLabel(t('Name'))
+      ->setLabel(t('Name'))
       ->setDescription(t('The name of the Annonce entity.'))
       ->setSettings([
         'max_length' => 50,
@@ -182,7 +182,7 @@ class Annonce extends ContentEntityBase implements AnnonceInterface {
       ])
       ->setDefaultValue('')
       ->setDisplayOptions('view', [
-        'label' => 'above',
+        'label' => 'hidden',
         'type' => 'string',
         'weight' => -4,
       ])

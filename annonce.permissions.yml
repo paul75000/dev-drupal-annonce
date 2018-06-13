@@ -8,7 +8,7 @@ administer annonce entities:
 
 delete annonce entities:
   title: 'Delete Annonce entities'
-
+  
 edit annonce entities:
   title: 'Edit Annonce entities'
 

@@ -20,3 +20,8 @@ entity.annonce.delete_form:
   title: Delete
   weight: 10
 
+entity.annonce_tab:
+  route_name: entity.annonce.collection
+  base_route: system.admin_content
+  title: Annonces
+  weight: 2

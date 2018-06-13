@@ -12,3 +12,8 @@ annonce.admin.structure.settings:
   description: 'Configure Annonce entities'
   route_name: annonce.settings
   parent: system.admin_structure
+
+annonce.admin.content.annonce:
+  title: Annonces
+  parent: system.admin_content
+  route_name: entity.annonce.collection
